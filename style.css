@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+/* 
+* {
+    margin: 0;
+    padding: 0;
+} */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(70deg, rgb(191, 191, 193), rgb(248, 235, 237))
+}
+h1 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: blue;
+}
+.contacts img {
+    width: 25px;
+}
