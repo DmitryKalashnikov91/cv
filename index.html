@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CVKalashnikov</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="print.css">
     </head>
     <body>
         <div class="container">
@@ -13,7 +14,7 @@
                 <img
                     src="https://sun1-18.userapi.com/s/v1/if1/EWpT8sx9X5I7IZMjrDSibI90F1gtWWyR4S4arn1ekguiK3d_XnA2o8Ifm4PJUhmu-oHttx7P.jpg?size=200x200&quality=96&crop=1,271,1615,1615&ava=1"
                     alt="profile image"
-                    class="avatar"
+                    class="avatar no-print"
                 />
                 <div class="header-text">
                 <h1>Frontend developer ReactJS</h1>
@@ -21,17 +22,18 @@
                 <p>+79999152567</p>
                 <p>Москва, <img src="metro.png" alt="metro" width="10"> Ольховая</p>
                 <h4>Мои социальные сети</h2>
-                <div class="contacts">
+                <div class="contacts no-print">
                         <a href="https://vk.com/id70942768" target="_blank"
-                            ><img src="vk.png" alt=""
+                            ><img src="vk.png" alt="vk"
                         />  </a>
                         <a href="https://t.me/kald3al" target="_blank"
-                            ><img src="tg.png" alt=""
+                            ><img src="tg.png" alt="tg"
                         />  </a>
                         <a href="https://github.com/DmitryKalashnikov91" target="_blank"
                             ><img src="git.png" alt="git icon"
                         /></a>
                     </div>
+                    <a href="javaScript:window.print();">Версия для печати</a>
                     </div>
             </div>
 
@@ -88,7 +90,7 @@
         </div>
         <div class="card bg-green">
             <h3>Лендинг магазина косметики</h3>
-            <p> (<a href="https://boltaeva-market-1jepxe6ll-dmitrykalashnikov91.vercel.app/" target="_blank">ссылка</a>).</p>
+            <p> (<a href="https://boltaeva-market-i2a1zi0n1-dmitrykalashnikov91.vercel.app/" target="_blank">ссылка</a>).</p>
             <p>Использовал: ReactJS, SCSS.modules</p>
         
         </div>
@@ -113,26 +115,24 @@
             </table>
         </div>
             <hr />
-            <div class="card bg-red contact">
+            <div class="card bg-red contact no-print">
             <h3>Написать мне</h3>
-            <form action="/">
+            <form action="/" class="no-print">
                 <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" />
+                    </div>
+                        <div class="form-group">
+                        <label for="email">Ваш email</label>
+                        <input type="email" id="email" />
+                    </div>
+                </div>
                 <div class="form-group">
-                    
-                <label for="name">Ваше имя</label>
-                <input type="text" id="name" />
-            </div>
-            <div class="form-group">
-                <label for="email">Ваш email</label>
-                <input type="email" id="email" />
-            </div>
-        </div>
-            <div class="form-group">
-                <label for="text">Ваше сообщение</label>
-                <textarea name="" id="text" cols="15" rows="3"></textarea>
-            </div>
+                    <label for="text">Ваше сообщение</label>
+                    <textarea name="" id="text" cols="15" rows="3"></textarea>
+                </div>
                 <input class="btn" type="submit" value="Связаться" />
-            
             </form>
         </div>
             <script src="index.js"></script>
