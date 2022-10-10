@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
-/* 
-* {
-    margin: 0;
-    padding: 0;
-} */
+
 body {
     background: linear-gradient(70deg, rgb(191, 191, 193), rgb(248, 235, 237));
     color: #0f141e;
@@ -33,7 +29,7 @@ h1 {
 }
 .avatar {
     width: 160px;
-    height: 180px;
+    height: 165px;
     border-radius: 28px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.40);
 }
